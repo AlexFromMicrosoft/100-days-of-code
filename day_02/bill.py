@@ -13,4 +13,4 @@ people_num = float(people)
 percentage_convert = (bill_num / 100) * percentage_num
 res = round((bill_num + percentage_convert) / people_num, 2)
 # Imprimir
-print(f"Cada pessoa deverá pagar: {res}")
+print(f"Cada pessoa deverá pagar: ${res}")

@@ -10,4 +10,4 @@
 - [x] 053 Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando os espaços.
 - [x] 054 Crie um programa que armazene a data de nascimento de 7 pessoas. No final mostre quantas pessoas ainda não atingiram a maioridade e quantas já são maiores.(Maioridade >= 21)
 - [x] 055 Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o maior e o menor peso lidos.
-- [ ] 056 Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas. No final do programa, mostre: A média de idade do grupo, O nome do Homem mais velho e Quantas mulheres têm menos de 20 anos.
+- [x] 056 Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas. No final do programa, mostre: A média de idade do grupo, O nome do Homem mais velho e Quantas mulheres têm menos de 20 anos.

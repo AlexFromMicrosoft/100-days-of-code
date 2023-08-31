@@ -42,7 +42,7 @@ Dentre elas as principais são:
 [YouTube](https://www.youtube.com/)
 
 ## Imagens
-![Link](https://images-ng.pixai.art/images/orig/abfe0931-0ea9-4958-813e-d6876d778573)\
+![Link](https://images-ng.pixai.art/images/orig/abfe0931-0ea9-4958-813e-d6876d778573)
 
 ## Citações em bloco
 >Sorte não é apenas um fator coincidente. É um elemento escondido dentro do campo que favorece quem age com base em seus desejos.

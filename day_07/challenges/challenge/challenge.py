@@ -30,7 +30,6 @@ while not end_of_game:
         if letter == guess:
             display[position] = letter
 
-
     if guess not in chosen_word:
 
         print(f"The letter {guess} is not in the word. You lose a life")

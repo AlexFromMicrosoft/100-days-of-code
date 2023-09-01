@@ -1,8 +1,8 @@
 #Step 5
-from art import logo
-from art import stages
+from day_09.art import logo
+from day_09.art import stages
 from words import word_list
-from clear import clear
+from day_09.clear import clear
 import random
 
 chosen_word = random.choice(word_list)

@@ -1,16 +1,19 @@
 # Saudar
-print('')
-# Obter valores
-bill = input("Quanto deu a conta? ")
-percentage = input("Quanto deixará de gorjeta? ")
-people =input("Vai dividir em quantas pessoas? ")
-# Transformar valores
-bill_sif = bill.replace(bill[0], "", 1)
-bill_num = float(bill_sif)
-percentage_num = float(percentage)
-people_num = float(people)
-# Calcular
-percentage_convert = (bill_num / 100) * percentage_num
-res = round((bill_num + percentage_convert) / people_num, 2)
-# Imprimir
-print(f"Cada pessoa deverá pagar: ${res}")
+# Criar um programa que:
+    # Pergunta o valor da conta
+    # Pergunta quanto deixará de gorjeta: [10%, 12%, 15%]
+    # Pergunta em quantas pessoas irá dividir a conta
+    # Realiza o cálculo e mostra quanto deu para cada 1
+
+print("Calculadora da Conta\n")
+
+bill = int(input("Quanto deu a conta?\nR$"))
+gorjeta = int(input("Quanto deixará de gorjeta? Digite [10%/12%/15%]: \n").replace("%", ""))
+divisao = int(input("Em quantas pessoas irá dividir a conta?\nDigite aqui: "))
+
+porcentagem = (gorjeta / 100) * bill
+calc = (bill - porcentagem) / divisao
+arredondando = round(calc, 2)
+
+print(f"Dividindo a conta em {divisao} pessoas, tirando a taxa de {gorjeta}% do garçom, cada um deve pagar R${calc}.")
+

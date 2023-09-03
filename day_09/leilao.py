@@ -17,7 +17,7 @@ while not end:
     elif novo_participante == 'sim':
         clear()
 
-print(lances)
+print(lances)novo_participante == 'nao'
 
 
 

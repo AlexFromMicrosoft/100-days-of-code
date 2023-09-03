@@ -14,7 +14,7 @@ input_let = int(input("quantas letras terá sua senha?\n".title()))
 input_num = int(input("quantos números terá sua senha?\n".title()))
 input_sym = int(input("quantos símbolos terá sua senha?\n".title()))
 
-# Lista das Listas
+# Lista das Listas 
 char = [let, num, sym]
 entry = [input_let, input_num, input_sym]
 lista = []
@@ -29,7 +29,7 @@ for i in range(len(entry)):
 # Shuffle
 random.shuffle(lista)
 
-# Formatação da Lista
+# Formatação da Lista | Remover os espaços entre cada item da lista
 formatar = (''.join(lista))
 
 # Resultado
